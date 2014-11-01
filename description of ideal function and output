@@ -1,0 +1,17 @@
+Description of ideal function of device:
+(1) The ultrasoinc range finder should be able to detect the location of the falling bottle and record its location over the time of the drop.
+  (a) The device will need to be calibrated for use in the indoor environment. The temperature sensor in the components list will be necessary to compensate for the temperature gradient in the room, since the rangefinder will be operating in a vertical orientation.
+  (b) the device will need to be able to be calibrated to record height data in reference to the height of "the bottom surface." Perhaps this could be done in a 'calibration mode' where a block could be held at the laser level identified "bottom surface" and the height of the block above the rangefinder could be subtracted from the bottle height to make this the appropriate offset value for the zerodistance. The laseer level would only be a passive player in this device, serving three purposes: 1. calibration of the ultrasonic range finder, 2. allowing event observers to visually determine if the bottle "hit" the "bottom surface" that was determined in the calibration, and 3. maintaining a contstant measurement point so that the drop height can be accurately measured in the room. 
+  (b) The data collection can start manually or automatically upon sensing that an objecct is falling.
+  (c) The data collection should continue for at least enough time that the falling bottle has reached the minimum distance above "the bottom surface" and started on the way back up. Preferably continuing to record data until the bottom of the second bounce to ensure all pertinent data is collected. 
+  
+(2) The data will need to be stored for evaluation. 
+  (a) The data for the height as a function of time will need to be tabulated so that it can be saved and revisited for further review. 
+  (b) The data tables will need to be labeled descriptively, so that the parameters of the drop are identified. These parameters include: Science Olympiad team name, drop height, mass of bottle, date and time, drop name (ex: 1st attempt, mayfieldteam1drop2, etc.), bungee cord description (optional), ambient temperature (not necessary to have but, if possible, should be automatically collected).
+  (c) Data from several drops should be able to be stored for easy comparison. This will allow for a winner to be selected in competition, and patterns in bungee cord properties to be established during practice.
+  
+(3) The data will need to be able to be displayed for easy interpretation during competition.
+  (a) The position v. time data should be represented graphically on an output screen. 
+  (b) The minmum height above the bottom surface should be clearly displayed and readable at a distance from the screen. 
+  (c) A simple GUI should facilitate (1)the calibration process, (2)entry of the descriptive labels for each drop, (3)initalizing the recording process and (4) saving the data file(s) for further review. All of this must be simple enough to operate that it could be done by a person with no technical training (ex: student, parent volunteer)
+  (d) Ideally, the GUI will make all of this possible on a single screen, or a series of very simple menus. The asthetics are not important, but easy of operability is paramount. 
