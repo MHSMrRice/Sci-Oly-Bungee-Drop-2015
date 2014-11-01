@@ -1,0 +1,14 @@
+Ultrasonic Range Finder:
+MB1013
+HRLV-MaxSonar®-EZ1™
+High Performance Ultrasonic Precision Rangefinder
+http://maxbotix.com/documents/HRLV-MaxSonar-EZ_Datasheet.pdf
+
+Temperature sensor:
+HR-MaxTemp
+Temperature Compensation Sensor for the HR series of sensors
+http://www.maxbotix.com/documents/HR-MaxTemp_Datasheet.pdf
+
+These components can be paired connected with shielded cable (for noise reduction).
+An arduino or other microcontroller can also be used to control and connect this device to a computer so that the results can be stored and displayed.
+
