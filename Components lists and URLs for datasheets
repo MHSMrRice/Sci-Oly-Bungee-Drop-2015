@@ -12,3 +12,5 @@ http://www.maxbotix.com/documents/HR-MaxTemp_Datasheet.pdf
 These components can be paired connected with shielded cable (for noise reduction).
 An arduino or other microcontroller can also be used to control and connect this device to a computer so that the results can be stored and displayed.
 
+A whole rig would need to be built to be able to adjust the temp. sensor vs. the drop hight because it needs to be half way between the sensor and the drop hight. 
+
