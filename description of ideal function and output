@@ -15,3 +15,5 @@ Description of ideal function of device:
   (b) The minmum height above the bottom surface should be clearly displayed and readable at a distance from the screen. 
   (c) A simple GUI should facilitate (1)the calibration process, (2)entry of the descriptive labels for each drop, (3)initalizing the recording process and (4) saving the data file(s) for further review. All of this must be simple enough to operate that it could be done by a person with no technical training (ex: student, parent volunteer)
   (d) Ideally, the GUI will make all of this possible on a single screen, or a series of very simple menus. The asthetics are not important, but easy of operability is paramount. 
+
+Instrumentino could be used to create a GUI. Its object based and it auto saves data for projects. Also, could i get acess to this project so I'm not writing everything as edits. 
