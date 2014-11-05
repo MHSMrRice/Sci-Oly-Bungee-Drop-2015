@@ -1,3 +1,5 @@
+The first two items are the range finder and temp sensor that are accurate to 1mm - these will be what is used in the final product.
+
 Ultrasonic Range Finder:
 MB1013
 HRLV-MaxSonar®-EZ1™
@@ -11,6 +13,16 @@ http://www.maxbotix.com/documents/HR-MaxTemp_Datasheet.pdf
 
 These components can be paired connected with shielded cable (for noise reduction).
 An arduino or other microcontroller can also be used to control and connect this device to a computer so that the results can be stored and displayed.
+
+
+A more common/ less accurate range finder can be used to practice generating data from an arduino and recording/displaying that data:
+
+The Ping))) sensor from Parallax.com (rev B) is already at the school and able to be tested. 
+PING))) Ultrasonic Distance Sensor 
+28015 Rev B
+http://www.parallax.com/product/28015
+
+
 
 A whole rig would need to be built to be able to adjust the temp. sensor vs. the drop hight because it needs to be half way between the sensor and the drop hight. 
 
