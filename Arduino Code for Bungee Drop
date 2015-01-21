@@ -47,6 +47,9 @@ Ultrasonic::Ultrasonic(int pin)
     // the follow variables is a long because the time, measured in miliseconds,
     // will quickly become a bigger number than can be stored in an int.
   long interval = 5000;           // interval at which to blink (milliseconds)
+  long previousHeight = 100000;
+  
+  long laserHeight = 500;
 
 
 
@@ -96,6 +99,12 @@ void loop()
 	Serial.println(RangeInCentimeters);//0~400cm
 //	Serial.println(" cm");
 	delay(20);
+	
+	if (previousHeight > RangeInCentimeters) {
+		Serial.println(RangeInCentimeters - laserHeight);
+		previousHeight = RangeInCentimeters;
+	}	
+	
 
    unsigned long currentMillis = millis();
  
